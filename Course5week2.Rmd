@@ -1,8 +1,7 @@
 ---
-output:
-  html_document: default
-  pdf_document: default
-  word_document: default
+output: 
+  html_document: 
+    keep_md: yes
 ---
 #**Course 5: Reproducable Research - Week 2 Project**
 
@@ -152,7 +151,7 @@ qplot(interval,
         facet_wrap(~ type_of_day, ncol = 1)
 ```
 
-I like using this style as it shows the distro between the data in each interval.
+
 
 
 
